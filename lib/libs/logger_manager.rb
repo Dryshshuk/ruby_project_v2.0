@@ -14,6 +14,10 @@ module RbParser
         @logger.level = Logger.const_get(config_data.dig("logging", "level") || "DEBUG")
       end
 
+      def log_info(message)
+        @logger.info(message)
+      end
+
       def log_processed_file(file_name)
         @logger.info("Processed file: #{file_name}")
       end

@@ -1,6 +1,7 @@
 require_relative "./libs/app_config_loader"
 require_relative "./libs/logger_manager"
 require_relative "./libs/item"
+require_relative "./libs/cart"
 
 module RbParser
   class Main
@@ -35,6 +36,21 @@ module RbParser
 
       fake_item = RbParser::Item.generate_fake
       puts fake_item.info
+
+      cart = RbParser::Cart.new
+      cart.generate_test_items(5)
+      cart.show_all_items
+
+      cart.save_to_file
+      cart.save_to_json
+      cart.save_to_csv
+      cart.save_to_yml
+
+      puts "Class info: #{Cart.class_info}"
+      puts "Total items created: #{Cart.item_count}"
+
+      expensive_items = cart.select_items { |item| item.price > 50 }
+      puts "Expensive items: #{expensive_items}"
     end
   end
 end

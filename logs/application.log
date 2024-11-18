@@ -16,3 +16,144 @@ I, [2024-11-18T23:07:52.084903 #29616]  INFO -- : Processed file: example_file
 E, [2024-11-18T23:07:52.085099 #29616] ERROR -- : Error: Example error
 I, [2024-11-18T23:07:52.085254 #29616]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
 I, [2024-11-18T23:07:52.088600 #29616]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Concrete Pants, price: 305.4, subtitle: Quia quia voluptates ut optio., image_url: consequuntur.jpg
+I, [2024-11-18T23:14:50.331245 #35280]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:14:50.331684 #35280] ERROR -- : Error: Example error
+I, [2024-11-18T23:14:50.331886 #35280]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:14:51.662526 #35280]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Awesome Rubber Clock, price: 533.99, subtitle: Consequuntur blanditiis alias soluta repellendus., image_url: est.jpg
+I, [2024-11-18T23:14:51.666509 #35280]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:14:51.666721 #35280] ERROR -- : Error: Example error
+I, [2024-11-18T23:14:51.666948 #35280]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:14:51.669059 #35280]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Granite Clock, price: 322.61, subtitle: Illum id ea sunt numquam., image_url: quaerat.jpg
+I, [2024-11-18T23:15:53.498309 #9336]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:15:53.498703 #9336] ERROR -- : Error: Example error
+I, [2024-11-18T23:15:53.499020 #9336]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:15:54.738686 #9336]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Enormous Aluminum Bottle, price: 61.53, subtitle: Alias illo omnis temporibus et., image_url: iure.jpg
+I, [2024-11-18T23:16:18.933844 #27000]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:16:18.934105 #27000] ERROR -- : Error: Example error
+I, [2024-11-18T23:16:18.934241 #27000]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:16:20.250028 #27000]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Cotton Clock, price: 530.3, subtitle: Non id iure fuga consequatur., image_url: earum.jpg
+I, [2024-11-18T23:16:55.155369 #17676]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:16:55.155765 #17676] ERROR -- : Error: Example error
+I, [2024-11-18T23:16:55.156003 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:16:56.500612 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Gorgeous Silk Pants, price: 560.55, subtitle: Beatae amet asperiores rerum minus., image_url: a.jpg
+I, [2024-11-18T23:16:56.501317 #17676]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:16:56.501734 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Aerodynamic Granite Chair, price: 965.87, subtitle: Architecto enim et sit ut., image_url: et.jpg
+I, [2024-11-18T23:16:56.501932 #17676]  INFO -- : Item added to cart: RbParser::Item - title: Aerodynamic Granite Chair, price: 965.87, subtitle: Architecto enim et sit ut., image_url: et.jpg
+I, [2024-11-18T23:16:56.502282 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Aerodynamic Wooden Bottle, price: 481.05, subtitle: Tempora et quos repellat aut., image_url: accusamus.jpg
+I, [2024-11-18T23:16:56.502656 #17676]  INFO -- : Item added to cart: RbParser::Item - title: Aerodynamic Wooden Bottle, price: 481.05, subtitle: Tempora et quos repellat aut., image_url: accusamus.jpg
+I, [2024-11-18T23:16:56.502960 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Heavy Duty Silk Computer, price: 403.67, subtitle: Incidunt dignissimos reprehenderit culpa aut., image_url: ea.jpg
+I, [2024-11-18T23:16:56.503052 #17676]  INFO -- : Item added to cart: RbParser::Item - title: Heavy Duty Silk Computer, price: 403.67, subtitle: Incidunt dignissimos reprehenderit culpa aut., image_url: ea.jpg
+I, [2024-11-18T23:16:56.503443 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Incredible Granite Bottle, price: 413.45, subtitle: Ea corrupti omnis molestiae qui., image_url: enim.jpg
+I, [2024-11-18T23:16:56.503595 #17676]  INFO -- : Item added to cart: RbParser::Item - title: Incredible Granite Bottle, price: 413.45, subtitle: Ea corrupti omnis molestiae qui., image_url: enim.jpg
+I, [2024-11-18T23:16:56.503951 #17676]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Incredible Linen Knife, price: 494.45, subtitle: Reiciendis sed magnam aut odit., image_url: eaque.jpg
+I, [2024-11-18T23:16:56.504156 #17676]  INFO -- : Item added to cart: RbParser::Item - title: Incredible Linen Knife, price: 494.45, subtitle: Reiciendis sed magnam aut odit., image_url: eaque.jpg
+I, [2024-11-18T23:16:56.504298 #17676]  INFO -- : 5 test items generated
+I, [2024-11-18T23:16:56.504442 #17676]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:16:56.507132 #17676]  INFO -- : Items saved to text file: items.txt
+I, [2024-11-18T23:16:56.508217 #17676]  INFO -- : Items saved to JSON file: items.json
+I, [2024-11-18T23:16:56.509917 #17676]  INFO -- : Items saved to CSV file: items.csv
+I, [2024-11-18T23:16:56.519783 #17676]  INFO -- : Items saved to YAML files in directory: items_yaml
+I, [2024-11-18T23:19:23.025413 #6032]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:19:23.025801 #6032] ERROR -- : Error: Example error
+I, [2024-11-18T23:19:23.025958 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:19:24.383845 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Lightweight Linen Knife, price: 440.2, subtitle: Debitis asperiores sed rerum culpa., image_url: veritatis.jpg
+I, [2024-11-18T23:19:24.384823 #6032]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:19:24.385354 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Small Copper Wallet, price: 137.39, subtitle: A atque ex sit eos., image_url: saepe.jpg
+I, [2024-11-18T23:19:24.385607 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Small Copper Wallet, price: 137.39, subtitle: A atque ex sit eos., image_url: saepe.jpg
+I, [2024-11-18T23:19:24.386139 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Enormous Aluminum Shoes, price: 593.03, subtitle: Id ex nobis at dolor., image_url: porro.jpg
+I, [2024-11-18T23:19:24.386394 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Enormous Aluminum Shoes, price: 593.03, subtitle: Id ex nobis at dolor., image_url: porro.jpg
+I, [2024-11-18T23:19:24.387108 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Lightweight Iron Watch, price: 811.58, subtitle: Maxime perspiciatis sunt ut numquam., image_url: neque.jpg
+I, [2024-11-18T23:19:24.387374 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Lightweight Iron Watch, price: 811.58, subtitle: Maxime perspiciatis sunt ut numquam., image_url: neque.jpg
+I, [2024-11-18T23:19:24.387812 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Aerodynamic Aluminum Bottle, price: 758.46, subtitle: Et maiores natus pariatur facilis., image_url: alias.jpg
+I, [2024-11-18T23:19:24.388070 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Aerodynamic Aluminum Bottle, price: 758.46, subtitle: Et maiores natus pariatur facilis., image_url: alias.jpg
+I, [2024-11-18T23:19:24.388459 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Awesome Linen Bag, price: 782.9, subtitle: Nisi reiciendis laudantium et voluptatibus., image_url: rerum.jpg
+I, [2024-11-18T23:19:24.388713 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Awesome Linen Bag, price: 782.9, subtitle: Nisi reiciendis laudantium et voluptatibus., image_url: rerum.jpg
+I, [2024-11-18T23:19:24.388944 #6032]  INFO -- : 5 test items generated
+I, [2024-11-18T23:19:24.389151 #6032]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:19:24.392033 #6032]  INFO -- : Items saved to text file: items.txt
+I, [2024-11-18T23:19:24.393086 #6032]  INFO -- : Items saved to JSON file: items.json
+I, [2024-11-18T23:19:24.395336 #6032]  INFO -- : Items saved to CSV file: items.csv
+I, [2024-11-18T23:19:24.403603 #6032]  INFO -- : Items saved to YAML files in directory: items_yaml
+I, [2024-11-18T23:19:24.421480 #6032]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:19:24.421887 #6032] ERROR -- : Error: Example error
+I, [2024-11-18T23:19:24.422057 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:19:24.424959 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Heavy Duty Granite Knife, price: 617.64, subtitle: Ut saepe sed beatae ut., image_url: nemo.jpg
+I, [2024-11-18T23:19:24.425616 #6032]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:19:24.426374 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Rustic Cotton Hat, price: 523.09, subtitle: Quam consequatur sapiente est alias., image_url: quam.jpg
+I, [2024-11-18T23:19:24.426594 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Rustic Cotton Hat, price: 523.09, subtitle: Quam consequatur sapiente est alias., image_url: quam.jpg
+I, [2024-11-18T23:19:24.427264 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Durable Wool Computer, price: 47.55, subtitle: Mollitia sunt quae cupiditate sed., image_url: eaque.jpg
+I, [2024-11-18T23:19:24.427481 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Durable Wool Computer, price: 47.55, subtitle: Mollitia sunt quae cupiditate sed., image_url: eaque.jpg
+I, [2024-11-18T23:19:24.428084 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Wool Gloves, price: 198.11, subtitle: Non optio quod facere magni., image_url: sed.jpg
+I, [2024-11-18T23:19:24.428315 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Practical Wool Gloves, price: 198.11, subtitle: Non optio quod facere magni., image_url: sed.jpg
+I, [2024-11-18T23:19:24.428816 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Linen Chair, price: 896.34, subtitle: Quasi corporis ex eum est., image_url: et.jpg
+I, [2024-11-18T23:19:24.429032 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Practical Linen Chair, price: 896.34, subtitle: Quasi corporis ex eum est., image_url: et.jpg
+I, [2024-11-18T23:19:24.429431 #6032]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Lightweight Rubber Chair, price: 302.68, subtitle: Qui est sit atque quo., image_url: numquam.jpg
+I, [2024-11-18T23:19:24.429645 #6032]  INFO -- : Item added to cart: RbParser::Item - title: Lightweight Rubber Chair, price: 302.68, subtitle: Qui est sit atque quo., image_url: numquam.jpg
+I, [2024-11-18T23:19:24.429788 #6032]  INFO -- : 5 test items generated
+I, [2024-11-18T23:19:24.429932 #6032]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:19:24.433198 #6032]  INFO -- : Items saved to text file: items.txt
+I, [2024-11-18T23:19:24.434687 #6032]  INFO -- : Items saved to JSON file: items.json
+I, [2024-11-18T23:19:24.436198 #6032]  INFO -- : Items saved to CSV file: items.csv
+I, [2024-11-18T23:19:24.444919 #6032]  INFO -- : Items saved to YAML files in directory: items_yaml
+I, [2024-11-18T23:21:36.101262 #17848]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:21:36.101548 #17848] ERROR -- : Error: Example error
+I, [2024-11-18T23:21:36.101714 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:21:37.624496 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Fantastic Wooden Pants, price: 246.94, subtitle: Quo commodi iste aperiam officia., image_url: ullam.jpg
+I, [2024-11-18T23:21:37.625689 #17848]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:21:37.626446 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Durable Silk Table, price: 113.55, subtitle: Blanditiis adipisci sunt temporibus libero., image_url: possimus.jpg
+I, [2024-11-18T23:21:37.626650 #17848]  INFO -- : Item added to cart: RbParser::Item - title: Durable Silk Table, price: 113.55, subtitle: Blanditiis adipisci sunt temporibus libero., image_url: possimus.jpg
+I, [2024-11-18T23:21:37.627506 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Enormous Marble Bottle, price: 481.46, subtitle: Officia qui quis amet corrupti., image_url: illo.jpg
+I, [2024-11-18T23:21:37.627695 #17848]  INFO -- : Item added to cart: RbParser::Item - title: Enormous Marble Bottle, price: 481.46, subtitle: Officia qui quis amet corrupti., image_url: illo.jpg
+I, [2024-11-18T23:21:37.628364 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Aerodynamic Silk Table, price: 930.25, subtitle: Quaerat quis nam officiis sequi., image_url: magnam.jpg
+I, [2024-11-18T23:21:37.628511 #17848]  INFO -- : Item added to cart: RbParser::Item - title: Aerodynamic Silk Table, price: 930.25, subtitle: Quaerat quis nam officiis sequi., image_url: magnam.jpg
+I, [2024-11-18T23:21:37.628958 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Synergistic Marble Bottle, price: 768.5, subtitle: Sit voluptatum consequatur beatae eveniet., image_url: velit.jpg
+I, [2024-11-18T23:21:37.629120 #17848]  INFO -- : Item added to cart: RbParser::Item - title: Synergistic Marble Bottle, price: 768.5, subtitle: Sit voluptatum consequatur beatae eveniet., image_url: velit.jpg
+I, [2024-11-18T23:21:37.629551 #17848]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Intelligent Copper Bag, price: 553.78, subtitle: Ut corporis non ipsum consectetur., image_url: nisi.jpg
+I, [2024-11-18T23:21:37.629747 #17848]  INFO -- : Item added to cart: RbParser::Item - title: Intelligent Copper Bag, price: 553.78, subtitle: Ut corporis non ipsum consectetur., image_url: nisi.jpg
+I, [2024-11-18T23:21:37.629887 #17848]  INFO -- : 5 test items generated
+I, [2024-11-18T23:21:37.630014 #17848]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:21:37.633480 #17848]  INFO -- : Items saved to text file: output/items.txt
+I, [2024-11-18T23:21:37.635102 #17848]  INFO -- : Items saved to JSON file: output/items.json
+I, [2024-11-18T23:21:37.637067 #17848]  INFO -- : Items saved to CSV file: output/items.csv
+I, [2024-11-18T23:23:06.629297 #5012]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:23:06.629669 #5012] ERROR -- : Error: Example error
+I, [2024-11-18T23:23:06.629946 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:23:07.896321 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Synergistic Steel Plate, price: 345.42, subtitle: Labore enim consectetur architecto qui., image_url: est.jpg
+I, [2024-11-18T23:23:07.897096 #5012]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:23:07.897577 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Awesome Rubber Car, price: 938.63, subtitle: Et dolor consequatur nihil sit., image_url: perspiciatis.jpg
+I, [2024-11-18T23:23:07.897864 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Awesome Rubber Car, price: 938.63, subtitle: Et dolor consequatur nihil sit., image_url: perspiciatis.jpg
+I, [2024-11-18T23:23:07.898306 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Synergistic Wool Shirt, price: 959.07, subtitle: Sed et cumque ut minima., image_url: cum.jpg
+I, [2024-11-18T23:23:07.898861 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Synergistic Wool Shirt, price: 959.07, subtitle: Sed et cumque ut minima., image_url: cum.jpg
+I, [2024-11-18T23:23:07.899357 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Durable Rubber Bottle, price: 947.63, subtitle: Consectetur eos aut et explicabo., image_url: sed.jpg
+I, [2024-11-18T23:23:07.899639 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Durable Rubber Bottle, price: 947.63, subtitle: Consectetur eos aut et explicabo., image_url: sed.jpg
+I, [2024-11-18T23:23:07.900168 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Small Concrete Bench, price: 834.65, subtitle: Nihil omnis dolor placeat aut., image_url: et.jpg
+I, [2024-11-18T23:23:07.900440 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Small Concrete Bench, price: 834.65, subtitle: Nihil omnis dolor placeat aut., image_url: et.jpg
+I, [2024-11-18T23:23:07.900862 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Awesome Paper Coat, price: 370.98, subtitle: Et qui ratione id non., image_url: mollitia.jpg
+I, [2024-11-18T23:23:07.901078 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Awesome Paper Coat, price: 370.98, subtitle: Et qui ratione id non., image_url: mollitia.jpg
+I, [2024-11-18T23:23:07.901247 #5012]  INFO -- : 5 test items generated
+I, [2024-11-18T23:23:07.901432 #5012]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:23:07.904420 #5012]  INFO -- : Items saved to text file: output/items.txt
+I, [2024-11-18T23:23:07.905834 #5012]  INFO -- : Items saved to JSON file: output/items.json
+I, [2024-11-18T23:23:07.907564 #5012]  INFO -- : Items saved to CSV file: output/items.csv
+I, [2024-11-18T23:23:07.912896 #5012]  INFO -- : Items saved to YAML files in directory: output/items_yaml
+I, [2024-11-18T23:23:07.937615 #5012]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:23:07.937911 #5012] ERROR -- : Error: Example error
+I, [2024-11-18T23:23:07.938211 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:23:07.940686 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Small Leather Knife, price: 476.02, subtitle: Voluptatum facilis veritatis est molestias., image_url: magnam.jpg
+I, [2024-11-18T23:23:07.941294 #5012]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:23:07.941923 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Rustic Concrete Wallet, price: 274.64, subtitle: Quo et omnis voluptate ipsa., image_url: deleniti.jpg
+I, [2024-11-18T23:23:07.942051 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Rustic Concrete Wallet, price: 274.64, subtitle: Quo et omnis voluptate ipsa., image_url: deleniti.jpg
+I, [2024-11-18T23:23:07.942406 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Synergistic Aluminum Keyboard, price: 730.74, subtitle: Odit et aut et repellat., image_url: saepe.jpg
+I, [2024-11-18T23:23:07.942599 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Synergistic Aluminum Keyboard, price: 730.74, subtitle: Odit et aut et repellat., image_url: saepe.jpg
+I, [2024-11-18T23:23:07.943003 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Enormous Silk Chair, price: 979.41, subtitle: Voluptatem hic consequatur in molestiae., image_url: illum.jpg
+I, [2024-11-18T23:23:07.943121 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Enormous Silk Chair, price: 979.41, subtitle: Voluptatem hic consequatur in molestiae., image_url: illum.jpg
+I, [2024-11-18T23:23:07.943591 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Durable Linen Computer, price: 627.01, subtitle: Illo laborum velit praesentium omnis., image_url: ea.jpg
+I, [2024-11-18T23:23:07.943716 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Durable Linen Computer, price: 627.01, subtitle: Illo laborum velit praesentium omnis., image_url: ea.jpg
+I, [2024-11-18T23:23:07.944138 #5012]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Small Copper Bottle, price: 153.4, subtitle: Qui dolores voluptas sed quod., image_url: iure.jpg
+I, [2024-11-18T23:23:07.944254 #5012]  INFO -- : Item added to cart: RbParser::Item - title: Small Copper Bottle, price: 153.4, subtitle: Qui dolores voluptas sed quod., image_url: iure.jpg
+I, [2024-11-18T23:23:07.944347 #5012]  INFO -- : 5 test items generated
+I, [2024-11-18T23:23:07.944440 #5012]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:23:07.947718 #5012]  INFO -- : Items saved to text file: output/items.txt
+I, [2024-11-18T23:23:07.949190 #5012]  INFO -- : Items saved to JSON file: output/items.json
+I, [2024-11-18T23:23:07.951014 #5012]  INFO -- : Items saved to CSV file: output/items.csv
+I, [2024-11-18T23:23:07.955915 #5012]  INFO -- : Items saved to YAML files in directory: output/items_yaml
