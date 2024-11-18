@@ -1,0 +1,6 @@
+web_scraping:
+    start_page: "https://www.ebay.com/b/PC-Laptops-Netbooks/177/bn_317584"
+    product_name_selector: ".s-item__title"
+    product_price_selector: ".s-item__price"
+    product_description_selector: ".s-item__subtitle"
+    product_image_selector: ".s-item__image-img"

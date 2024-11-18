@@ -1,0 +1,4 @@
+I, [2024-11-18T22:41:28.909405 #33832]  INFO -- : Processed file: example_file
+E, [2024-11-18T22:41:28.910435 #33832] ERROR -- : Error: Example error
+I, [2024-11-18T22:41:28.918246 #33832]  INFO -- : Processed file: example_file
+E, [2024-11-18T22:41:28.918512 #33832] ERROR -- : Error: Example error
