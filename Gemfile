@@ -2,7 +2,15 @@
 
 source "https://rubygems.org"
 
-gem 'nokogiri'
-gem 'httparty'
-gem 'rubocop', require: false
-gem 'faker'
+gem "faker"
+gem "httparty"
+gem "logger"
+gem "mongo"
+gem "nokogiri"
+gem "rubocop", require: false
+gem "securerandom"
+gem "sqlite3"
+gem 'sidekiq'
+gem 'mechanize'
+gem 'pony'
+gem 'rubyzip', '~> 2.3'

@@ -1,7 +1,7 @@
-database_config:
-    database_type: sqlite
-
-    sqlite_database:
-        db_file: db/local_database.sqlite
-        timeout: 5000
-        pool_size: 5
+database:
+  sqlite:
+    path: "db/items.db"
+  mongodb:
+    host: "localhost"
+    port: 27017
+    database_name: "items_db"

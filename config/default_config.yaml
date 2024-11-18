@@ -3,3 +3,11 @@ default:
     config_dir: config
     yaml_dir: config/yaml
     media_dir: media
+
+database:
+  sqlite:
+    path: "db/items.db"
+  mongodb:
+    host: "localhost"
+    port: 27017
+    database_name: "items_db"
