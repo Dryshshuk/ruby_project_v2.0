@@ -157,3 +157,43 @@ I, [2024-11-18T23:23:07.947718 #5012]  INFO -- : Items saved to text file: outpu
 I, [2024-11-18T23:23:07.949190 #5012]  INFO -- : Items saved to JSON file: output/items.json
 I, [2024-11-18T23:23:07.951014 #5012]  INFO -- : Items saved to CSV file: output/items.csv
 I, [2024-11-18T23:23:07.955915 #5012]  INFO -- : Items saved to YAML files in directory: output/items_yaml
+I, [2024-11-18T23:28:17.409947 #12968]  INFO -- : Processed file: example_file
+I, [2024-11-18T23:28:17.410412 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:28:18.793332 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Gorgeous Plastic Shoes, price: 151.01, subtitle: Quia tempora debitis nesciunt totam., image_url: ipsam.jpg
+I, [2024-11-18T23:28:18.794507 #12968]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:28:18.794984 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Small Paper Wallet, price: 150.52, subtitle: Voluptatibus qui dolores et aut., image_url: atque.jpg
+I, [2024-11-18T23:28:18.795263 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Small Paper Wallet, price: 150.52, subtitle: Voluptatibus qui dolores et aut., image_url: atque.jpg
+I, [2024-11-18T23:28:18.795760 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Heavy Duty Copper Bench, price: 647.51, subtitle: Accusantium dolores distinctio non similique., image_url: sed.jpg
+I, [2024-11-18T23:28:18.796071 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Heavy Duty Copper Bench, price: 647.51, subtitle: Accusantium dolores distinctio non similique., image_url: sed.jpg
+I, [2024-11-18T23:28:18.796521 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Awesome Leather Bag, price: 963.58, subtitle: Cum sunt doloribus saepe aut., image_url: qui.jpg
+I, [2024-11-18T23:28:18.796668 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Awesome Leather Bag, price: 963.58, subtitle: Cum sunt doloribus saepe aut., image_url: qui.jpg
+I, [2024-11-18T23:28:18.797088 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Rustic Leather Wallet, price: 79.12, subtitle: Laudantium unde asperiores eos aut., image_url: recusandae.jpg
+I, [2024-11-18T23:28:18.797298 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Rustic Leather Wallet, price: 79.12, subtitle: Laudantium unde asperiores eos aut., image_url: recusandae.jpg
+I, [2024-11-18T23:28:18.797611 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Copper Bag, price: 99.76, subtitle: Sit et sequi sed dolorem., image_url: doloremque.jpg
+I, [2024-11-18T23:28:18.797714 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Practical Copper Bag, price: 99.76, subtitle: Sit et sequi sed dolorem., image_url: doloremque.jpg
+I, [2024-11-18T23:28:18.797808 #12968]  INFO -- : 5 test items generated
+I, [2024-11-18T23:28:18.797910 #12968]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:28:18.800897 #12968]  INFO -- : Items saved to text file: output/items.txt
+I, [2024-11-18T23:28:18.802038 #12968]  INFO -- : Items saved to JSON file: output/items.json
+I, [2024-11-18T23:28:18.803286 #12968]  INFO -- : Items saved to CSV file: output/items.csv
+I, [2024-11-18T23:28:18.807849 #12968]  INFO -- : Items saved to YAML files in directory: output/items_yaml
+I, [2024-11-18T23:28:18.827434 #12968]  INFO -- : Processed file: example_file
+I, [2024-11-18T23:28:18.827691 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:28:18.830157 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Durable Rubber Table, price: 764.96, subtitle: Eum vel ut ducimus beatae., image_url: id.jpg
+I, [2024-11-18T23:28:18.831302 #12968]  INFO -- : Cart initialized with an empty items array
+I, [2024-11-18T23:28:18.832474 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Lightweight Linen Chair, price: 626.28, subtitle: Consequatur nihil alias suscipit libero., image_url: et.jpg
+I, [2024-11-18T23:28:18.832853 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Lightweight Linen Chair, price: 626.28, subtitle: Consequatur nihil alias suscipit libero., image_url: et.jpg
+I, [2024-11-18T23:28:18.833743 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Synergistic Paper Bench, price: 437.54, subtitle: Dolorem consequatur assumenda cum ut., image_url: ut.jpg
+I, [2024-11-18T23:28:18.834078 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Synergistic Paper Bench, price: 437.54, subtitle: Dolorem consequatur assumenda cum ut., image_url: ut.jpg
+I, [2024-11-18T23:28:18.834917 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Incredible Marble Coat, price: 222.66, subtitle: Non delectus ad omnis quam., image_url: autem.jpg
+I, [2024-11-18T23:28:18.835259 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Incredible Marble Coat, price: 222.66, subtitle: Non delectus ad omnis quam., image_url: autem.jpg
+I, [2024-11-18T23:28:18.836576 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Fantastic Marble Plate, price: 572.59, subtitle: Aut non fuga ut quam., image_url: quam.jpg
+I, [2024-11-18T23:28:18.836897 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Fantastic Marble Plate, price: 572.59, subtitle: Aut non fuga ut quam., image_url: quam.jpg
+I, [2024-11-18T23:28:18.837717 #12968]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Small Silk Knife, price: 72.64, subtitle: Et et exercitationem excepturi ipsum., image_url: ducimus.jpg
+I, [2024-11-18T23:28:18.838015 #12968]  INFO -- : Item added to cart: RbParser::Item - title: Small Silk Knife, price: 72.64, subtitle: Et et exercitationem excepturi ipsum., image_url: ducimus.jpg
+I, [2024-11-18T23:28:18.838318 #12968]  INFO -- : 5 test items generated
+I, [2024-11-18T23:28:18.838534 #12968]  INFO -- : Showing all items in the cart
+I, [2024-11-18T23:28:18.841940 #12968]  INFO -- : Items saved to text file: output/items.txt
+I, [2024-11-18T23:28:18.842874 #12968]  INFO -- : Items saved to JSON file: output/items.json
+I, [2024-11-18T23:28:18.844159 #12968]  INFO -- : Items saved to CSV file: output/items.csv
+I, [2024-11-18T23:28:18.850047 #12968]  INFO -- : Items saved to YAML files in directory: output/items_yaml
