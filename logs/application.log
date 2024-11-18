@@ -2,3 +2,17 @@ I, [2024-11-18T22:41:28.909405 #33832]  INFO -- : Processed file: example_file
 E, [2024-11-18T22:41:28.910435 #33832] ERROR -- : Error: Example error
 I, [2024-11-18T22:41:28.918246 #33832]  INFO -- : Processed file: example_file
 E, [2024-11-18T22:41:28.918512 #33832] ERROR -- : Error: Example error
+I, [2024-11-18T22:56:51.492444 #2888]  INFO -- : Processed file: example_file
+E, [2024-11-18T22:56:51.492892 #2888] ERROR -- : Error: Example error
+I, [2024-11-18T22:56:51.493167 #2888]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Unknown Title, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T22:59:04.096924 #17452]  INFO -- : Processed file: example_file
+E, [2024-11-18T22:59:04.102250 #17452] ERROR -- : Error: Example error
+I, [2024-11-18T22:59:04.102465 #17452]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:07:47.474589 #29616]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:07:47.474875 #29616] ERROR -- : Error: Example error
+I, [2024-11-18T23:07:47.475032 #29616]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:07:52.081025 #29616]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Gorgeous Silk Bench, price: 742.31, subtitle: Repudiandae tempora est dolore quia., image_url: sed.jpg
+I, [2024-11-18T23:07:52.084903 #29616]  INFO -- : Processed file: example_file
+E, [2024-11-18T23:07:52.085099 #29616] ERROR -- : Error: Example error
+I, [2024-11-18T23:07:52.085254 #29616]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Товар 1, price: 150, subtitle: No subtitle available, image_url: default.jpg
+I, [2024-11-18T23:07:52.088600 #29616]  INFO -- : Processed file: Item initialized: RbParser::Item - title: Practical Concrete Pants, price: 305.4, subtitle: Quia quia voluptates ut optio., image_url: consequuntur.jpg
