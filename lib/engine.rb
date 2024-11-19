@@ -128,9 +128,12 @@ module RbParser
       collection_name = db_connector.get_mongodb_collection_name
       items_collection = client[collection_name.to_sym]
 
+      # Directly get the MongoDB database name from the config
+      db_name = db_connector.config["database"]["mongodb"]["database_name"]
+      
       data = parser.item_collection.map(&:to_h)
       items_collection.insert_many(data)
-      puts "Data saved to MongoDB in database '#{db_connector.get_mongodb_name}'"
+      puts "Data saved to MongoDB in database '#{db_name}'"
     end
   end
 end

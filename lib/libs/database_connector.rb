@@ -1,7 +1,3 @@
-require 'yaml'
-require 'sqlite3'
-require 'mongo'
-
 class DatabaseConnector
   attr_reader :config, :sqlite_db, :mongodb_client
 
@@ -17,22 +13,22 @@ class DatabaseConnector
   end
 
   def connect_to_databases
-  if @config && @config["database"]
-    # SQLite Connection
-    if @config["database"]["sqlite"]
-      sqlite_path = @config["database"]["sqlite"]["path"]
-      @sqlite_db = SQLite3::Database.new(sqlite_path)
-      puts "Connected to SQLite database at #{sqlite_path}"
-    end
+    if @config && @config["database"]
+      # SQLite Connection
+      if @config["database"]["sqlite"]
+        sqlite_path = @config["database"]["sqlite"]["path"]
+        @sqlite_db = SQLite3::Database.new(sqlite_path)
+        puts "Connected to SQLite database at #{sqlite_path}"
+      end
 
-    # MongoDB Connection
-    if @config["database"]["mongodb"]
-      host = @config["database"]["mongodb"]["host"]
-      port = @config["database"]["mongodb"]["port"]
-      db_name = @config["database"]["mongodb"]["database_name"]
-      @mongodb_client = Mongo::Client.new(["#{host}:#{port}"], database: db_name)
-      puts "Connected to MongoDB at #{host}:#{port}, Database: #{db_name}"
-    end
+      # MongoDB Connection
+      if @config["database"]["mongodb"]
+        host = @config["database"]["mongodb"]["host"]
+        port = @config["database"]["mongodb"]["port"]
+        db_name = @config["database"]["mongodb"]["database_name"]
+        @mongodb_client = Mongo::Client.new(["#{host}:#{port}"], database: db_name)
+        puts "Connected to MongoDB at #{host}:#{port}, Database: #{db_name}"
+      end
     else
       raise "Database configuration is missing or invalid"
     end
@@ -48,5 +44,19 @@ class DatabaseConnector
     @mongodb_client.close if @mongodb_client
   rescue StandardError => e
     puts "Error closing database connections: #{e.message}"
+  end
+
+  # New method to get MongoDB database name
+  def get_mongodb_name
+    @config["database"]["mongodb"]["database_name"]
+  end
+
+  # Methods to retrieve SQLite path and MongoDB collection name
+  def get_sqlite_path
+    @config["database"]["sqlite"]["path"]
+  end
+
+  def get_mongodb_collection_name
+    @config["database"]["mongodb"]["collection_name"]
   end
 end

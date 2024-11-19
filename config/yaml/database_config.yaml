@@ -5,3 +5,4 @@ database:
     host: "localhost"
     port: 27017
     database_name: "items_db"
+    collection_name: "items"
