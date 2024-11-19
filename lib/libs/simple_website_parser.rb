@@ -20,7 +20,7 @@ module RbParser
 
     def start_parse
       LoggerManager.log_processed_file("Starting parsing process")
-      url = config['start_page']
+      url = config['web_scraping']['start_page']
 
       if check_url_response(url)
         page = agent.get(url)
@@ -39,11 +39,11 @@ module RbParser
     end
 
     def extract_products_links(page)
-      # Books to Scrape specific selector for product links
-      product_selector = '.product_pod h3 a'
+      # Використовуємо новий селектор для отримання посилань на продукти
+      product_selector = '.product-card a'
       links = page.search(product_selector).map { |link| link['href'] }
       LoggerManager.log_processed_file("Extracted #{links.size} product links")
-      links.map { |link| URI.join(page.uri.to_s, link).to_s } # Ensure full URLs for links
+      links.map { |link| URI.join(page.uri.to_s, link).to_s } # Переконуємось, що посилання повні
     end
 
     def parse_product_page(product_link)
@@ -51,59 +51,49 @@ module RbParser
         LoggerManager.log_error("Product page is not accessible: #{product_link}")
         return
       end
-
+    
       begin
         product_page = agent.get(product_link)
         name = extract_product_name(product_page)
         price = extract_product_price(product_page)
-        description = extract_product_description(product_page)
         image_url = extract_product_image(product_page)
-        category = extract_product_category(product_page)
-
+    
+        # For saving images, get the category dynamically (e.g., from config or the page itself)
+        category = 'dresses' # This can be adjusted
+    
         image_path = save_product_image(image_url, category)
-
+    
+        # Initialize the item with the parsed data
         item = Item.new(
-          name: name,
-          price: price,
-          description: description,
-          category: category,
-          image_path: image_path
+          title: name,        # Correctly assign title
+          price: price,       # Correctly assign price
+          image_url: image_path # Correctly assign image_path (not the URL directly)
         )
-
+    
         @item_collection << item
-        LoggerManager.log_processed_file("Parsed product: #{name}, Price: #{price}, Description: #{description}, Category: #{category}, Image Path: #{image_path}")
-
+        LoggerManager.log_processed_file("Parsed product: #{name}, Price: #{price}, Image Path: #{image_path}")
+    
       rescue StandardError => e
         LoggerManager.log_error("Failed to parse product page at #{product_link}: #{e.message}")
       end
     end
 
     def extract_product_name(product)
-      # Extract name of the product from the Books to Scrape page
-      product.search('h1').text.strip
+      # Використовуємо новий селектор з конфігурації
+      product.search(config['web_scraping']['product_name_selector']).text.strip
     end
 
     def extract_product_price(product)
-      # Books to Scrape specific selector for price
-      price = product.search('.price_color').text.strip
+      # Використовуємо новий селектор для ціни з конфігурації
+      price = product.search(config['web_scraping']['product_price_selector']).text.strip
       price.empty? ? 'N/A' : price
     end
 
-    def extract_product_description(product)
-      # Books to Scrape doesn't have a specific description field, so use the product's information
-      'No description available'
-    end
-
     def extract_product_image(product)
-      # Books to Scrape uses relative URLs for images, so join with the base URL
-      image = product.search('.item img').first['src']
+      # Використовуємо новий селектор для зображень з конфігурації
+      image = product.search(config['web_scraping']['product_image_selector']).first['src']
       LoggerManager.log_processed_file("Extracted image URL: #{image}")
-      URI.join('https://books.toscrape.com', image).to_s
-    end
-
-    def extract_product_category(product)
-      # Since the category isn't directly on the product page, you can use a default category or scrape from the site structure
-      config['selectors']['category'] || 'Books'
+      URI.join('https://fabrikacin.com.ua/zhinochi-sukni', image).to_s
     end
 
     def save_product_image(image_url, category)

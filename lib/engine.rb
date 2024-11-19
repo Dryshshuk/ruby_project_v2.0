@@ -83,9 +83,10 @@ module RbParser
 
     def run_save_to_csv
       CSV.open("output/data.csv", "w") do |csv|
-        csv << ["Title", "Price", "Subtitle", "Image URL"]
+        csv << ["Title", "Price", "Image URL"]
         parser.item_collection.each do |item|
-          csv << [item.title, item.price, item.subtitle, item.image_url]
+          csv << [item.title, item.price, item.image_url]
+          puts "Saving item: #{item.title}, #{item.price}, #{item.image_url}"
         end
       end
       puts "Data saved to CSV at output/data.csv"
@@ -110,15 +111,14 @@ module RbParser
           id INTEGER PRIMARY KEY,
           title TEXT,
           price TEXT,
-          subtitle TEXT,
           image_url TEXT
         );
       SQL
 
       parser.item_collection.each do |item|
-        db.execute("INSERT INTO items (title, price, subtitle, image_url) 
-                    VALUES (?, ?, ?, ?)", 
-                    [item.title, item.price, item.subtitle, item.image_url])
+        db.execute("INSERT INTO items (title, price, image_url) 
+                    VALUES (?, ?, ?)", 
+                    [item.title, item.price, item.image_url])
       end
       puts "Data saved to SQLite at #{db_connector.get_sqlite_path}"
     end

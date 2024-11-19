@@ -1,6 +1,12 @@
 web_scraping:
-    start_page: "https://books.toscrape.com"
-    product_name_selector: "#content_inner > article > div.row > div.col-sm-6.product_main > h1"
-    product_price_selector: "#content_inner > article > div.row > div.col-sm-6.product_main > p.price_color"
-    product_description_selector: "#content_inner > article > p"  
-    product_image_selector: "#product_gallery > div > div > div > img"
+    start_page: "https://fabrikacin.com.ua/zhinochi-sukni"
+    product_name_selector: ".page-title"
+    product_price_selector: ".price-value"
+    product_image_selector: "a img"
+
+methods:
+  - run_save_to_csv
+  - run_save_to_json
+  - run_save_to_yaml
+  - run_save_to_sqlite
+  - run_save_to_mongodb

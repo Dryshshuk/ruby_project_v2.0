@@ -10,7 +10,6 @@ module RbParser
     def initialize(params = {})
       @title = params[:title] || "Unknown Title"
       @price = params[:price] || 0.0
-      @subtitle = params[:subtitle] || "No subtitle available"
       @image_url = params[:image_url] || "default.jpg"
 
       LoggerManager.log_processed_file("Item initialized: #{self}")
@@ -47,7 +46,6 @@ module RbParser
         new(
           title: Faker::Commerce.product_name,
           price: Faker::Commerce.price(range: 10..1000.0),
-          subtitle: Faker::Lorem.sentence(word_count: 5),
           image_url: "#{Faker::Lorem.word}.jpg"
         )
       rescue StandardError => e
@@ -55,7 +53,6 @@ module RbParser
         new(
           title: "Generated Item",
           price: 0.0,
-          subtitle: "Default subtitle",
           image_url: "default.jpg"
         )
       end
