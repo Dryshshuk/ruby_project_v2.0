@@ -239,3 +239,103 @@ I, [2024-11-19T00:05:00.206235 #1944]  INFO -- : Processed file: Initialized Sim
 I, [2024-11-19T00:05:00.219098 #1944]  INFO -- : Processed file: Starting parsing process
 E, [2024-11-19T00:05:00.219520 #1944] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
 E, [2024-11-19T00:05:00.220651 #1944] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T00:08:12.203193 #6092]  INFO -- : Processed file: example_file
+I, [2024-11-19T00:08:12.231585 #6092]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T00:08:12.271586 #6092]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T00:08:12.271983 #6092] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T00:08:12.273177 #6092] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T00:08:12.306227 #6092]  INFO -- : Processed file: example_file
+I, [2024-11-19T00:08:12.309314 #6092]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T00:08:12.334186 #6092]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T00:08:12.334521 #6092] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T00:08:12.335508 #6092] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T00:09:58.706249 #33804]  INFO -- : Processed file: example_file
+I, [2024-11-19T00:09:58.732223 #33804]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T00:09:58.776814 #33804]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T00:09:58.777166 #33804] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T00:09:58.778067 #33804] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T00:09:58.809377 #33804]  INFO -- : Processed file: example_file
+I, [2024-11-19T00:09:58.812658 #33804]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T00:09:58.836050 #33804]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T00:09:58.836378 #33804] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T00:09:58.836582 #33804] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T00:10:23.189850 #33604]  INFO -- : Processed file: example_file
+I, [2024-11-19T00:10:23.207766 #33604]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T00:10:23.242035 #33604]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T00:10:23.242544 #33604] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T00:10:23.243430 #33604] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T00:10:23.274436 #33604]  INFO -- : Processed file: example_file
+I, [2024-11-19T00:10:23.277426 #33604]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T00:10:23.301433 #33604]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T00:10:23.302017 #33604] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T00:10:23.303011 #33604] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T09:41:58.090411 #7104]  INFO -- : Processed file: example_file
+I, [2024-11-19T09:41:58.114818 #7104]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T09:41:58.166693 #7104]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T09:41:58.167326 #7104] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T09:41:58.168889 #7104] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T09:41:58.198006 #7104]  INFO -- : Processed file: example_file
+I, [2024-11-19T09:41:58.201083 #7104]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T09:41:58.224191 #7104]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T09:41:58.224560 #7104] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T09:41:58.225506 #7104] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T09:42:47.253441 #21140]  INFO -- : Processed file: example_file
+I, [2024-11-19T09:42:47.276714 #21140]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T09:42:47.311034 #21140]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T09:42:47.311583 #21140] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T09:42:47.312547 #21140] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T09:42:47.343606 #21140]  INFO -- : Processed file: example_file
+I, [2024-11-19T09:42:47.345986 #21140]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T09:42:47.378359 #21140]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T09:42:47.378956 #21140] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T09:42:47.379185 #21140] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:15:16.405882 #12496]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:15:16.432421 #12496]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:15:16.480063 #12496]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:15:16.480800 #12496] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:15:16.482628 #12496] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:15:16.514805 #12496]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:15:16.520220 #12496]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:15:16.554719 #12496]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:15:16.555465 #12496] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:15:16.556243 #12496] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:25:02.435761 #21188]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:25:02.495487 #21188]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:25:02.553121 #21188]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:25:02.553813 #21188] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:25:02.555944 #21188] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:25:02.588291 #21188]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:25:02.595071 #21188]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:25:02.629743 #21188]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:25:02.630375 #21188] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:25:02.632292 #21188] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:28:40.527857 #9324]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:28:40.574818 #9324]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:28:40.627561 #9324]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:28:40.628417 #9324] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:28:40.630607 #9324] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:28:40.665964 #9324]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:28:40.670844 #9324]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:28:40.706550 #9324]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:28:40.707410 #9324] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:28:40.707812 #9324] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:32:58.462690 #27400]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:32:58.558275 #27400]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:32:58.598357 #27400]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:32:58.598914 #27400] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:32:58.600210 #27400] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:32:58.634755 #27400]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:32:58.639373 #27400]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:32:58.675159 #27400]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:32:58.675781 #27400] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:32:58.677724 #27400] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:34:03.369648 #15632]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:34:03.400569 #15632]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:34:03.436894 #15632]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:34:03.437341 #15632] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:34:03.438488 #15632] ERROR -- : Error: Start URL is not accessible: 
+I, [2024-11-19T12:34:03.477686 #15632]  INFO -- : Processed file: example_file
+I, [2024-11-19T12:34:03.481247 #15632]  INFO -- : Processed file: Initialized SimpleWebsiteParser with config config/yaml/web_parser.yaml
+I, [2024-11-19T12:34:03.514094 #15632]  INFO -- : Processed file: Starting parsing process
+E, [2024-11-19T12:34:03.514557 #15632] ERROR -- : Error: URL check failed for : absolute URL needed (not nil)
+E, [2024-11-19T12:34:03.515620 #15632] ERROR -- : Error: Start URL is not accessible: 
